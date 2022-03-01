@@ -1,0 +1,9 @@
+
+#ARG BASE_REGISTRY=docker.io
+ARG BASE_IMAGE=some-nginx
+ARG BASE_TAG=1.20.2-1
+
+#FROM ${BASE_REGISTRY}/${BASE_IMAGE}:${BASE_TAG}
+FROM ${BASE_IMAGE}:${BASE_TAG}
+
+COPY www  etc/nginx/html

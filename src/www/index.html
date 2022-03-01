@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+<link href="./css/main.css" type="text/css" rel="stylesheet">
+<script src="./js/main.js"></script>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+
+<!-- The grid: four columns -->
+<div class="row">
+    <div class="column">
+      <img src="./img/big-o-cheat-sheet-poster.png" alt="Big-O" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="./img/weusecloudnow.jpg" alt="Cloud" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="./img/Iwillfindyou.jpg" alt="Find" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="./img/debug.jpg" alt="Debug" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg" style="width:100%">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+
+</body>
+</html>

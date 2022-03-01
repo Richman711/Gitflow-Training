@@ -1,0 +1,5 @@
+*.rpm
+*.tar.gz
+nginx_signing.key
+/.vs
+/bin/*
